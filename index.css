@@ -131,8 +131,64 @@ p {
 }
 
 .first-title-part-box {
+  max-width: 1260px;
+  margin: 0 auto;
   padding-top: 10%;
-  padding-left: 12%;
+}
+
+.title-block-with-white-car {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  color: black;
+}
+
+.little-sub-text-black-font {
+  color: black;
+  margin-top: 20px;
+  line-height: 33px;
+}
+
+.button-black {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  width: 130px;
+  height: 40px;
+  border-radius: 12px;
+  border: 1.2px solid black;
+  margin-top: 40px;
+}
+
+.button-black:hover {
+  background: black;
+  border: black;
+  color: white;
+}
+
+.block-with-white-car {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1260px;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+.block-with-white-car-speedometr {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.last-block {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+}
+
+.last-strange-car-img {
+  margin-left: 30%;
 }
 
 @media screen and (max-width: 1024px) {
